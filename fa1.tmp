@@ -1,0 +1,35 @@
+Input file?   test_src.txt
+0 
+
+0 const a=10;
+
+1 var b,c;
+
+1 procedure p;
+
+1 begin
+
+3 	c:=b+a;
+
+7 end;
+
+8 
+
+8 begin 
+
+9 	read(b); 
+
+11 	while b#0 do  
+
+15 		begin      
+
+15 			call p; 
+
+16 			write(2*c);
+
+21 			read(b); 
+
+23 		end 
+
+23 end.
+
